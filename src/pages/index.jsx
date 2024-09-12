@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const Index = () => {
   return (
     <Fragment>
-      <body class="home home-4 title-4">
+      <body className="home home-4 title-4">
         <div id="page" class="hfeed page-wrapper">
           <header id="site-header" className="site-header header-v4">
             <div className="header-mobile">
