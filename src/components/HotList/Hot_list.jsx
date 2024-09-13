@@ -453,7 +453,7 @@ export default function Hot_list() {
           </div>
         </div>
       </section>
-      <section className="section section-padding top-border p-t-70 m-b-70">
+      {/* <section className="section section-padding top-border p-t-70 m-b-70">
         <div className="section-container">
           <div className="block block-intro layout-3">
             <div className="block-widget-wrap">
@@ -497,7 +497,7 @@ export default function Hot_list() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

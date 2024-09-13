@@ -5,6 +5,53 @@
   text-align: center;
 }
 
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+.serif-text {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.sans-serif-text {
+  font-family: 'Lato', sans-serif;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extra-bold {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

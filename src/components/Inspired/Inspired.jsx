@@ -63,7 +63,7 @@ export default function Inspired() {
 
   return (
     <div>
-      <section className="section section-padding top-border p-t-70 m-b-70">
+      {/* <section className="section section-padding top-border p-t-70 m-b-70">
         <div className="section-container">
           <div className="block block-posts slider">
             <div className="block-widget-wrap">
@@ -121,7 +121,7 @@ export default function Inspired() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="section section-padding background-img bg-img-3 p-t-70 p-b-70 m-b-0">
         <div className="section-container">
           <div className="block block-feature layout-2">

@@ -1,0 +1,25 @@
+.site-header {
+    position: sticky;
+    top: -1px; /* Slight offset to trigger the observer */
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .site-header::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: transparent;
+    z-index: -1;
+  }
+  
+  .site-header.sticky {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fff; /* Adjust this to match your design */
+  }
+  /* Add any additional styles for your header content here */
+  
+  /* Ensure content below the header is not hidden 

@@ -30,38 +30,19 @@ export default function ExploreCard() {
                   >
                     <div className="item item-product-cat slick-slide">
                       <div className="item-product-cat-content">
-                        <a href="shop-grid-left.html">
+                        <a href="#">
                           <div className="item-image animation-horizontal">
                             <img
-                              width="273"
-                              height="376"
-                              src="/media/product/cat-4-1.jpg"
-                              alt="Bracelets"
-                            />
-                          </div>
-                        </a>
-                        <div className="product-cat-content-info">
-                          <h2 className="item-title">
-                            <a href="shop-grid-left.html">Bracelets</a>
-                          </h2>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item item-product-cat slick-slide">
-                      <div className="item-product-cat-content">
-                        <a href="shop-grid-left.html">
-                          <div className="item-image animation-horizontal">
-                            <img
-                              width="273"
-                              height="376"
-                              src="/media/product/cat-4-2.jpg"
+                             style={{ width:273,
+                              height:334}}
+                              src="src\assets\media\product\gift_box1.jpg"
                               alt="Charms"
                             />
                           </div>
                         </a>
                         <div className="product-cat-content-info">
                           <h2 className="item-title">
-                            <a href="shop-grid-left.html">Charms</a>
+                            <a href="shop-grid-left.html">Gift Box</a>
                           </h2>
                         </div>
                       </div>
@@ -71,10 +52,11 @@ export default function ExploreCard() {
                         <a href="shop-grid-left.html">
                           <div className="item-image animation-horizontal">
                             <img
-                              width="273"
-                              height="376"
+                              
                               src="/media/product/cat-4-3.jpg"
                               alt="Earrings"
+                              style={{ width:273,
+                                height:334}}
                             />
                           </div>
                         </a>
@@ -90,8 +72,8 @@ export default function ExploreCard() {
                         <a href="shop-grid-left.html">
                           <div className="item-image animation-horizontal">
                             <img
-                              width="273"
-                              height="376"
+                               style={{ width:273,
+                                height:334}}
                               src="/media/product/cat-4-4.jpg"
                               alt="Necklaces"
                             />
@@ -109,8 +91,8 @@ export default function ExploreCard() {
                         <a href="shop-grid-left.html">
                           <div className="item-image animation-horizontal">
                             <img
-                              width="273"
-                              height="376"
+                              style={{ width:273,
+                                height:334}}
                               src="/media/product/cat-4-5.jpg"
                               alt="Rings"
                             />
@@ -131,7 +113,7 @@ export default function ExploreCard() {
         </div>
       </section>
 
-      <section className="section section-padding m-b-70">
+      {/* <section className="section section-padding m-b-70">
         <div className="section-container large">
           <div className="block block-banners layout-4 banners-effect">
             <div className="block-widget-wrap">
@@ -214,7 +196,7 @@ export default function ExploreCard() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
      
     </div>
   );
