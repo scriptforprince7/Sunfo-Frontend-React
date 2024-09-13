@@ -246,12 +246,12 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="level-0">
-                          <Link to="/about">
+                          <Link to="/">
                             <span className="menu-item-text">Gift Box</span>
                           </Link>
                         </li>
                         <li className="level-0">
-                          <Link to="/shop">
+                          <Link to="/">
                             <span className="menu-item-text">Earings</span>
                           </Link>
                           {/* <ul className="sub-menu">
@@ -335,7 +335,7 @@ const Header = () => {
                           </Link>
                         </li> */}
                         <li className="level-0">
-                          <Link to="/contact">
+                          <Link to="/">
                             <span className="menu-item-text">Rings</span>
                           </Link>
                         </li>
