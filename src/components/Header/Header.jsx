@@ -6,6 +6,7 @@ import "../../assets/assets/js/app";
 import { height } from "@fortawesome/free-solid-svg-icons/fa0";
 import { useState, useEffect, useRef } from "react";
 import './Header.css'
+import Logo from '../../assets/media/sunflowlogo.png';
 
 const Header = () => {
   const [isSticky, setSticky] = useState(false);
@@ -53,7 +54,7 @@ const Header = () => {
                     <img
                       width="400"
                       height="79"
-                      src=""
+                      src={Logo}
                       alt="Mojuri – Jewelry Store HTML Template"
                     />
                   </Link>
@@ -84,7 +85,7 @@ const Header = () => {
                         <ul className="cart-list">
                           <li className="empty">
                             <span>No products in the cart.</span>
-                            <Link className="go-shop" to="shop-grid-left.html">
+                            <Link className="go-shop" to="#">
                               GO TO SHOP
                               <i aria-hidden="true" className="arrow_right"></i>
                             </Link>
@@ -102,7 +103,7 @@ const Header = () => {
                               <i className="icon_close"></i>
                             </a>
                             <a
-                              href="shop-details.html"
+                              href="#"
                               className="product-image"
                             >
                               <img
@@ -113,7 +114,7 @@ const Header = () => {
                               />
                             </a>
                             <a
-                              href="shop-details.html"
+                              href="#"
                               className="product-name"
                             >
                               Twin Hoops
@@ -130,7 +131,7 @@ const Header = () => {
                               <i className="icon_close"></i>
                             </a>
                             <a
-                              href="shop-details.html"
+                              href="#"
                               className="product-image"
                             >
                               <img
@@ -141,7 +142,7 @@ const Header = () => {
                               />
                             </a>
                             <a
-                              href="shop-details.html"
+                              href="#"
                               className="product-name"
                             >
                               Medium Flat Hoops
@@ -170,13 +171,13 @@ const Header = () => {
                         </div>
                         <div className="buttons">
                           <a
-                            href="shop-cart.html"
+                            href="#"
                             className="button btn view-cart btn-primary"
                           >
                             View cart
                           </a>
                           <a
-                            href="shop-checkout.html"
+                            href="#"
                             className="button btn checkout btn-default"
                           >
                             Check out
@@ -193,13 +194,13 @@ const Header = () => {
 
         <div className="header-mobile-fixed">
           <div className="shop-page">
-            <a href="shop-grid-left.html">
+            <a href="#">
               <i className="wpb-icon-shop"></i>
             </a>
           </div>
           <div className="my-account">
             <div className="login-header">
-              <a href="page-my-account.html">
+              <a href="#">
                 <i className="wpb-icon-user"></i>
               </a>
             </div>
@@ -212,7 +213,7 @@ const Header = () => {
           </div>
 
           <div className="wishlist-box">
-            <a href="shop-wishlist.html">
+            <a href="#">
               <i className="wpb-icon-heart"></i>
             </a>
           </div>
@@ -229,8 +230,8 @@ const Header = () => {
                     <Link to="/">
                       <img
                         style={{ width: "170px" }}
-                        src="src\assets\media\sunflowlogo.png"
-                        alt="sunflow – Jewelry Store HTML Template"
+                        src={Logo}
+                        alt="sunflow"
                       />
                     </Link>
                   </div>
@@ -246,12 +247,12 @@ const Header = () => {
                           </Link>
                         </li>
                         <li className="level-0">
-                          <Link to="/">
+                          <Link to="/shop-product">
                             <span className="menu-item-text">Gift Box</span>
                           </Link>
                         </li>
                         <li className="level-0">
-                          <Link to="/">
+                          <Link to="/shop-product">
                             <span className="menu-item-text">Earings</span>
                           </Link>
                           {/* <ul className="sub-menu">
@@ -335,12 +336,12 @@ const Header = () => {
                           </Link>
                         </li> */}
                         <li className="level-0">
-                          <Link to="/">
+                          <Link to="/shop-product">
                             <span className="menu-item-text">Rings</span>
                           </Link>
                         </li>
                         <li className="level-0">
-                          <Link to="/pages">
+                          <Link to="/shop-product">
                             <span className="menu-item-text">Necklaces</span>
                           </Link>
                           {/* <ul className="sub-menu">
@@ -451,14 +452,14 @@ const Header = () => {
                                         value="forever"
                                       />
                                       <label
-                                        for="rememberme"
+                                        htmlFor="rememberme"
                                         className="inline"
                                       >
                                         Remember me
                                       </label>
                                     </div>
                                     <div className="lost_password">
-                                      <a href="forgot-password.html">
+                                      <a href="#">
                                         Lost your password?
                                       </a>
                                     </div>
@@ -520,7 +521,7 @@ const Header = () => {
                     </div>
 
                     <div className="wishlist-box">
-                      <a href="shop-wishlist.html">
+                      <a href="#">
                         <i className="icon-heart"></i>
                       </a>
                       <span className="count-wishlist">1</span>
@@ -552,7 +553,7 @@ const Header = () => {
                                 <span>No products in the cart.</span>
                                 <a
                                   className="go-shop"
-                                  href="shop-grid-left.html"
+                                  href="#"
                                 >
                                   GO TO SHOP
                                   <i
@@ -574,7 +575,7 @@ const Header = () => {
                                   <i className="icon_close"></i>
                                 </a>
                                 <a
-                                  href="shop-details.html"
+                                  href="#"
                                   className="product-image"
                                 >
                                   <img
@@ -585,7 +586,7 @@ const Header = () => {
                                   />
                                 </a>
                                 <a
-                                  href="shop-details.html"
+                                  href="#"
                                   className="product-name"
                                 >
                                   Twin Hoops
@@ -602,7 +603,7 @@ const Header = () => {
                                   <i className="icon_close"></i>
                                 </a>
                                 <a
-                                  href="shop-details.html"
+                                  href="#"
                                   className="product-image"
                                 >
                                   <img
@@ -613,7 +614,7 @@ const Header = () => {
                                   />
                                 </a>
                                 <a
-                                  href="shop-details.html"
+                                  href="#"
                                   className="product-name"
                                 >
                                   Medium Flat Hoops
@@ -642,13 +643,13 @@ const Header = () => {
                             </div>
                             <div className="buttons">
                               <a
-                                href="shop-cart.html"
+                                href="#"
                                 className="button btn view-cart btn-primary"
                               >
                                 View cart
                               </a>
                               <a
-                                href="shop-checkout.html"
+                                href="#"
                                 className="button btn checkout btn-default"
                               >
                                 Check out

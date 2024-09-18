@@ -36,7 +36,7 @@ export default function Hot_list() {
                               <div className="hot">Hot</div>
                             </div>
                             <div className="product-thumb-hover">
-                              <a href="shop-details.html">
+                              <a href="#">
                                 <img
                                   width="600"
                                   height="600"
@@ -97,7 +97,7 @@ export default function Hot_list() {
                                 <span className="count">(1 review)</span>
                               </div>
                               <h3 className="product-title">
-                                <a href="shop-details.html">
+                                <a href="#">
                                   Les Textured Hoops
                                 </a>
                               </h3>
@@ -116,7 +116,7 @@ export default function Hot_list() {
                               <div className="hot">Hot</div>
                             </div>
                             <div className="product-thumb-hover">
-                              <a href="shop-details.html">
+                              <a href="#">
                                 <img
                                   width="600"
                                   height="600"
@@ -177,7 +177,7 @@ export default function Hot_list() {
                                 <span className="count">(0 review)</span>
                               </div>
                               <h3 className="product-title">
-                                <a href="shop-details.html">
+                                <a href="#">
                                   Oversized Thin Hoops
                                 </a>
                               </h3>
@@ -202,7 +202,7 @@ export default function Hot_list() {
                               <div className="hot">Hot</div>
                             </div>
                             <div className="product-thumb-hover">
-                              <a href="shop-details.html">
+                              <a href="#">
                                 <img
                                   width="600"
                                   height="600"
@@ -263,7 +263,7 @@ export default function Hot_list() {
                                 <span className="count">(1 review)</span>
                               </div>
                               <h3 className="product-title">
-                                <a href="shop-details.html">Bold Hoops</a>
+                                <a href="#">Bold Hoops</a>
                               </h3>
                               <span className="price">$150.00</span>
                             </div>
@@ -279,7 +279,7 @@ export default function Hot_list() {
                               <div className="onsale">-33%</div>
                             </div>
                             <div className="product-thumb-hover">
-                              <a href="shop-details.html">
+                              <a href="#">
                                 <img
                                   width="600"
                                   height="600"
@@ -340,7 +340,7 @@ export default function Hot_list() {
                                 <span className="count">(1 review)</span>
                               </div>
                               <h3 className="product-title">
-                                <a href="shop-details.html">
+                                <a href="#">
                                   Organic Pearl Stacked Hoops
                                 </a>
                               </h3>
@@ -365,7 +365,7 @@ export default function Hot_list() {
                               <div className="onsale">-7%</div>
                             </div>
                             <div className="product-thumb-hover">
-                              <a href="shop-details.html">
+                              <a href="#">
                                 <img
                                   width="600"
                                   height="600"
@@ -429,7 +429,7 @@ export default function Hot_list() {
                                 <span className="count">(0 review)</span>
                               </div>
                               <h3 className="product-title">
-                                <a href="shop-details.html">
+                                <a href="#">
                                   Diamond Celestial Studs
                                 </a>
                               </h3>
@@ -477,7 +477,7 @@ export default function Hot_list() {
                     </div>
                     <div className="intro-btn">
                       <a
-                        href="shop-grid-left.html"
+                        href="#"
                         className="button button-outline border-black animation-horizontal"
                       >
                         Read more

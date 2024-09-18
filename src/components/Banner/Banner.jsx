@@ -38,7 +38,7 @@ export default function Banner() {
                     <h2 className="title-slider">MID YEAR SALE</h2>
                     <a
                       className="button-slider button button-white button-outline thick-border"
-                      href="shop-grid-left.html"
+                      href="#"
                     >
                       Explore Bestseller
                     </a>
@@ -62,7 +62,7 @@ export default function Banner() {
                     <h2 className="title-slider">MID YEAR SALE</h2>
                     <a
                       className="button-slider button button-white button-outline thick-border"
-                      href="shop-grid-left.html"
+                      href="#"
                     >
                       Explore Bestseller
                     </a>
@@ -86,7 +86,7 @@ export default function Banner() {
                     <h2 className="title-slider">MID YEAR SALE</h2>
                     <a
                       className="button-slider button button-white button-outline thick-border"
-                      href="shop-grid-left.html"
+                      href="#"
                     >
                       Explore Bestseller
                     </a>

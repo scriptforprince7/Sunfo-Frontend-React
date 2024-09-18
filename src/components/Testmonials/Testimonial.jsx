@@ -86,7 +86,7 @@ export default function Testimonial() {
                   style="width: 458px;"
                   data-slick-index="1"
                   aria-hidden="false"
-                  tabindex="-1"
+                  tabIndex="-1"
                 >
                   <div className="item">
                     <div className="testimonial-item">
@@ -125,7 +125,7 @@ export default function Testimonial() {
                   style="width: 458px;"
                   data-slick-index="1"
                   aria-hidden="false"
-                  tabindex="-1"
+                  tabIndex="-1"
                 >
                   <div className="item">
                     <div className="testimonial-item">

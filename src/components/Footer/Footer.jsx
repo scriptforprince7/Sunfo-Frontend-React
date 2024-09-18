@@ -22,28 +22,28 @@ export default function Footer() {
                       <div className="block-content">
                         <ul>
                           <li>
-                            <a href="shop-grid-left.html">Contact Us</a>
+                            <a href="#">Contact Us</a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">Track Your Order</a>
+                            <a href="#">Track Your Order</a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">
+                            <a href="#">
                               Product Care & Repair
                             </a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">
+                            <a href="#">
                               Book an Appointment
                             </a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">
+                            <a href="#">
                               Frequently Asked Questions
                             </a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">Shipping & Returns</a>
+                            <a href="#">Shipping & Returns</a>
                           </li>
                         </ul>
                       </div>
@@ -82,22 +82,22 @@ export default function Footer() {
                       <div className="block-content">
                         <ul>
                           <li>
-                            <a href="shop-grid-left.html">Earrings</a>
+                            <a href="#">Earrings</a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">Necklaces</a>
+                            <a href="#">Necklaces</a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">Bracelets</a>
+                            <a href="#">Bracelets</a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">Rings</a>
+                            <a href="#">Rings</a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">Jewelry Box</a>
+                            <a href="#">Jewelry Box</a>
                           </li>
                           <li>
-                            <a href="shop-grid-left.html">Studs</a>
+                            <a href="#">Studs</a>
                           </li>
                         </ul>
                       </div>

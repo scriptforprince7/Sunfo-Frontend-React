@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/assets/css/responsive.css";
 import "../../assets/assets/css/app.css";
 import "../../assets/assets/js/app";
+import Giftbox from '../../assets/media/product/gift_box1.jpg';
 
 export default function ExploreCard() {
   return (
@@ -35,21 +36,21 @@ export default function ExploreCard() {
                             <img
                              style={{ width:273,
                               height:334}}
-                              src="src\assets\media\product\gift_box1.jpg"
+                              src={Giftbox}
                               alt="Charms"
                             />
                           </div>
                         </a>
                         <div className="product-cat-content-info">
                           <h2 className="item-title">
-                            <a href="shop-grid-left.html">Gift Box</a>
+                            <a href="#">Gift Box</a>
                           </h2>
                         </div>
                       </div>
                     </div>
                     <div className="item item-product-cat slick-slide">
                       <div className="item-product-cat-content">
-                        <a href="shop-grid-left.html">
+                        <a href="#">
                           <div className="item-image animation-horizontal">
                             <img
                               
@@ -62,14 +63,14 @@ export default function ExploreCard() {
                         </a>
                         <div className="product-cat-content-info">
                           <h2 className="item-title">
-                            <a href="shop-grid-left.html">Earrings</a>
+                            <a href="#">Earrings</a>
                           </h2>
                         </div>
                       </div>
                     </div>
                     <div className="item item-product-cat slick-slide">
                       <div className="item-product-cat-content">
-                        <a href="shop-grid-left.html">
+                        <a href="#">
                           <div className="item-image animation-horizontal">
                             <img
                                style={{ width:273,
@@ -81,14 +82,14 @@ export default function ExploreCard() {
                         </a>
                         <div className="product-cat-content-info">
                           <h2 className="item-title">
-                            <a href="shop-grid-left.html">Necklaces</a>
+                            <a href="#">Necklaces</a>
                           </h2>
                         </div>
                       </div>
                     </div>
                     <div className="item item-product-cat slick-slide">
                       <div className="item-product-cat-content">
-                        <a href="shop-grid-left.html">
+                        <a href="#">
                           <div className="item-image animation-horizontal">
                             <img
                               style={{ width:273,
@@ -100,7 +101,7 @@ export default function ExploreCard() {
                         </a>
                         <div className="product-cat-content-info">
                           <h2 className="item-title">
-                            <a href="shop-grid-left.html">Rings</a>
+                            <a href="#">Rings</a>
                           </h2>
                         </div>
                       </div>
@@ -123,7 +124,7 @@ export default function ExploreCard() {
                     <div className="bg-banner">
                       <div className="banner-wrapper banners">
                         <div className="banner-image">
-                          <a href="shop-grid-left.html">
+                          <a href="#">
                             <img
                               width="690"
                               height="398"
@@ -143,7 +144,7 @@ export default function ExploreCard() {
                               </div>
                               <a
                                 className="button button-outline border-black"
-                                href="shop-grid-left.html"
+                                href="#"
                               >
                                 SHOP NOW
                               </a>
@@ -159,7 +160,7 @@ export default function ExploreCard() {
                     <div className="bg-banner">
                       <div className="banner-wrapper banners">
                         <div className="banner-image">
-                          <a href="shop-grid-left.html">
+                          <a href="#">
                             <img
                               width="690"
                               height="398"
@@ -181,7 +182,7 @@ export default function ExploreCard() {
                               </div>
                               <a
                                 className="button button-outline border-black"
-                                href="shop-grid-left.html"
+                                href="#"
                               >
                                 SHOP NOW
                               </a>
