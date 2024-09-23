@@ -15,6 +15,12 @@ import "jquery.mmenu";
 import Product from "./pages/Product";
 import About from "./pages/About";
 import Productdetails from "./pages/Productdetails";
+import Login from './pages/Login'
+import Shoppingart from "./pages/ShoppingCart";
+import Checkoutpage from "./pages/Checkoutpage";
+import Contact from "./pages/contact";
+import Blog from "./pages/Blog";
+import Blogdetails from "./pages/Blogdetails";
 
 function App() {
   return (
@@ -22,8 +28,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog/>} />
+        <Route path="/blog-details" element={<Blogdetails/>} />
         <Route path="/shop-product" element={<Product />} />
         <Route path="/product-details" element={<Productdetails />} />
+        <Route path="/register" element={<Login/>} />
+        <Route path="/shop-cart" element={<Shoppingart/>} />
+        <Route path="/checkout" element={<Checkoutpage/>} />
       </Routes>
     </Router>
   );
